@@ -1,0 +1,66 @@
+/* Reset CSS */
+/* 모든 요소의 여백과 패딩을 초기화합니다. */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 예쁜 폰트 설정 (Noto Sans KR를 사용하는 예시) */
+/* 웹페이지에 Noto Sans KR 폰트를 추가합니다. */
+/* 구글 폰트를 사용할 때는 head 태그 내에 링크를 추가해야 합니다. */
+/* <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet"> */
+
+/* 폰트 적용 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  /* 웹페이지의 기본 폰트로 Noto Sans KR 또는 다른 선택한 폰트를 사용합니다. */
+  font-size: 16px;
+  /* 기본 폰트 크기를 설정합니다. */
+  line-height: 1.6;
+  /* 줄 높이를 설정합니다. */
+  color: #333;
+  /* 기본 텍스트 색상을 설정합니다. */
+}

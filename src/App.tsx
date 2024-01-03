@@ -21,7 +21,7 @@ function App() {
   return (
     <div style={{ width: '100vw', height: '100vh', display: 'flex', background:'black'}}>
       <div style={{flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-        <h2 style={{ color: 'white'}}>{lang}</h2>
+        <h1 style={{ color: 'white', fontSize: '32px'}}>{lang}</h1>
       </div>
     </div>
   )
